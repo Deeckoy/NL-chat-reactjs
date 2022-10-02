@@ -1,0 +1,53 @@
+.footer {
+  width: 100%;
+  height: 60px;
+
+  padding: 0 15px;
+
+  display: flex;
+  align-items: center;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  background: var(--lightGrey);
+}
+
+.footer__form {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.footer__input {
+  width: 100%;
+  height: 30px;
+
+  padding: 4px 8px;
+
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primaryText);
+
+  outline: none;
+
+  border: none;
+  border-radius: 6px;
+  background: var(--white);
+}
+
+.footer__send {
+  width: 28px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;;
+  cursor: pointer;
+}

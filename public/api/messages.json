@@ -1,0 +1,81 @@
+[
+	{
+		"id": 0,
+		"messages": [
+			{
+				"id": 0,
+				"message": "Hello, world!",
+				"timestamp": 1664477740811,
+				"author": {
+					"id": 0
+				}
+			},
+			{
+				"id": 1,
+				"message": "Hello",
+				"timestamp": 1664477740811,
+				"author": {
+					"id": 1
+				}
+			},
+			{
+				"id": 2,
+				"message": "Whats up?",
+				"timestamp": 1664477740811,
+				"author": {
+					"id": 1
+				}
+			}
+		]
+	},
+	{
+		"id": 1,
+		"messages": [
+			{
+				"id": 0,
+				"message": "Hello, world!",
+				"timestamp": 1664477740811,
+				"author": {
+					"id": 0
+				}
+			},
+			{
+				"id": 1,
+				"message": "Hello",
+				"timestamp": 1664477740811,
+				"author": {
+					"id": 1
+				}
+			},
+			{
+				"id": 2,
+				"message": "Whats up?",
+				"timestamp": 1664477740811,
+				"author": {
+					"id": 1
+				}
+			}
+		]
+	},
+	{
+		"id": 2,
+		"messages": [
+			{
+				"id": 0,
+				"message": "They will unable to see this chat",
+				"timestamp": 1664477740811,
+				"author": {
+					"id": 1
+				}
+			},
+			{
+				"id": 1,
+				"message": "Yup!",
+				"timestamp": 1664477740811,
+				"author": {
+					"id": 2
+				}
+			}
+		]
+	}
+]

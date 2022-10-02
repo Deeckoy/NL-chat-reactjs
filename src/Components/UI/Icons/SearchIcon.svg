@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Search-Иконка">
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="Фон" fill="#FFFFFF" fill-opacity="0" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M10.4 2.4C5.9912 2.4 2.4 5.9912 2.4 10.4C2.4 14.8088 5.9912 18.4 10.4 18.4C12.3172 18.4 14.0779 17.7192 15.4578 16.5891L20.2344 21.3656C20.435 21.5746 20.733 21.6588 21.0133 21.5857C21.2937 21.5126 21.5126 21.2937 21.5857 21.0133C21.6588 20.733 21.5746 20.435 21.3656 20.2344L16.5891 15.4578C17.7192 14.0779 18.4 12.3172 18.4 10.4C18.4 5.9912 14.8088 2.4 10.4 2.4L10.4 2.4ZM10.4 4C13.9441 4 16.8 6.8559 16.8 10.4C16.8 13.9441 13.9441 16.8 10.4 16.8C6.8559 16.8 4 13.9441 4 10.4C4 6.8559 6.8559 4 10.4 4L10.4 4Z" id="Фигура" fill="currentColor" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>
