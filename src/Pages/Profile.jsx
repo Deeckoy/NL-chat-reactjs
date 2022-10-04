@@ -10,7 +10,7 @@ const Profile = () => {
 	const profileId = useParams();
 
 	const fetchUser = async () => {
-		await axios.get('http://localhost:3000/api/users.json').then((response) => setUser(response.data.find(data => data.id === parseInt(profileId.profileId))));
+		await axios.get('/api/users.json').then((response) => setUser(response.data.find(data => data.id === parseInt(profileId.profileId))));
 	};
 
 	function formatOnlineTime(time) {

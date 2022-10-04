@@ -6,7 +6,7 @@ const ChatHeader = (chatId) => {
 	const [user, setUser] = useState({});
 
 	const fetchUser = async () => {
-		await axios.get('http://localhost:3000/api/chats.json').then((response) => setUser(response.data.find(data => data.id === parseInt(chatId.chatId)).members[0]));
+		await axios.get('/api/chats.json').then((response) => setUser(response.data.find(data => data.id === parseInt(chatId.chatId)).members[0]));
 	};
 
 	useEffect(() => {

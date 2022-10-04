@@ -8,7 +8,7 @@ const Chats = () => {
 	const [chats, setChats] = useState([]);
 
 	async function fetchChats() {
-		await axios.get('http://localhost:3000/api/chats.json').then((response) => setChats(response.data));
+		await axios.get('/api/chats.json').then((response) => setChats(response.data));
 	}
 
 	useEffect(() => {

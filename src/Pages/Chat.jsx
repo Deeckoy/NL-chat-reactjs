@@ -12,14 +12,14 @@ const Chat = () => {
 	let {chatId} = useParams();
 
 	async function fetchMessages() {
-		await axios.get('http://localhost:3000/api/messages.json').then(response => {
+		await axios.get('/api/messages.json').then(response => {
 			setMessages(response.data.find(data => data.id === parseInt(chatId)).messages);
 			console.log(response.data.find(data => data.id === parseInt(chatId)));
 		});
 	}
 
 	const fetchUser = async () => {
-		await axios.get('http://localhost:3000/api/chats.json').then((response) => setUser(response.data.find(data => data.id === parseInt(chatId)).members[0]));
+		await axios.get('/api/chats.json').then((response) => setUser(response.data.find(data => data.id === parseInt(chatId)).members[0]));
 	};
 
 	const sendMessage = (event, newMessage) => {
